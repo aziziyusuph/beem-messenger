@@ -1,0 +1,19 @@
+# Secret configuration files
+config/beem.php
+config/database.php
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Dependencies
+vendor/
