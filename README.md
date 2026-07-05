@@ -29,25 +29,33 @@ The project is designed for local development with XAMPP and can be extended int
 
 ## Screenshots
 
-Create a `screenshots` folder in the project root and add images using names such as:
+### Homepage
 
-| Page | Suggested file |
-|---|---|
-| Homepage | `screenshots/homepage.png` |
-| Login | `screenshots/login.png` |
-| Dashboard | `screenshots/dashboard.png` |
-| Send SMS | `screenshots/send-sms.png` |
-| Send WhatsApp | `screenshots/send-whatsapp.png` |
-| Message History | `screenshots/message-history.png` |
-| Profile | `screenshots/profile.png` |
+![Beem Messenger Homepage](screenshots/homepage.PNG)
 
-After adding the images, you can display them in this README with:
+### Login Page
 
-```markdown
-![Beem Messenger Homepage](screenshots/homepage.png)
-![Beem Messenger Dashboard](screenshots/dashboard.png)
-![Message History](screenshots/message-history.png)
-```
+![Beem Messenger Login Page](screenshots/login.PNG)
+
+### Dashboard
+
+![Beem Messenger Dashboard](screenshots/dashboard.PNG)
+
+### Send SMS
+
+![Beem Messenger Send SMS Page](screenshots/send-sms.PNG)
+
+### Send WhatsApp
+
+![Beem Messenger Send WhatsApp Page](screenshots/send-whatsapp.PNG)
+
+### Message History
+
+![Beem Messenger Message History](screenshots/message-history.PNG)
+
+### Profile and API Configuration
+
+![Beem Messenger Profile Page](screenshots/profile.PNG)
 
 ## Technologies Used
 
@@ -71,6 +79,13 @@ beem-messenger/
 │   ├── beem.example.php
 │   └── database.example.php
 ├── screenshots/
+│   ├── dashboard.PNG
+│   ├── homepage.PNG
+│   ├── login.PNG
+│   ├── message-history.PNG
+│   ├── profile.PNG
+│   ├── send-sms.PNG
+│   └── send-whatsapp.PNG
 ├── dashboard.php
 ├── history.php
 ├── index.php
